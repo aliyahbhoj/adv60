@@ -1,0 +1,67 @@
+body{
+  text-align: center;
+  font-size:20px;
+  background: linear-gradient(#9CCC65 0%,#64DD17 100% )
+}
+
+h1{
+  text-shadow: 2px 2px #FFEA00 ;
+  font-size:30px;
+}
+
+#bio{
+  padding: 20px;
+  font-size:18;
+  text-align:center;
+}
+#landscape{
+    border-radius:50%;
+  width:150;
+    text-align: center;
+} 
+.menu{
+    list-style:none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    
+}
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+}
+li {
+  display: inline;
+  float: left;
+}
+li :hover {
+    background-color:cornsilk;
+}
+.links {
+    
+    display:inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: 'Ranchers', cursive;
+    font-size: 20px;
+}
+
+.links:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+    html {
+   scroll-behavior: smooth;
+}
+img{
+    border: 10px solid;
+
+}
+img:hover{
+    transform: scale(0.9);
+}
